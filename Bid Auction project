@@ -1,1 +1,8 @@
+#Todo-1: Ask the user for the input
+name=input("What is your name?: ")
+price=int(input("What is your bid?: €"))
 
+#Todo-2: Sava data into dictionary {name: price}
+bids{}
+#Todo-3: Whether if new bids need to be added
+#Todo-4: Compare bids in dictionary 
