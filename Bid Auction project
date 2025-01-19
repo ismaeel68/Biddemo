@@ -4,6 +4,6 @@ price=int(input("What is your bid?: €"))
 #Todo-2: Sava data into dictionary {name: price}
 bids={}
 continue_bidding=True
-
+while continue True:
 #Todo-3: Whether if new bids need to be added
 #Todo-4: Compare bids in dictionary 
