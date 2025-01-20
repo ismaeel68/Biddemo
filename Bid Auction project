@@ -1,6 +1,16 @@
 #Todo-1: Ask the user for the input
 #Todo-2: Sava data into dictionary {name: price}
 #Todo-4: Compare bids in dictionary 
+#Todo-3: Whether if new bids need to be added
+def find_highest_bidder(bidding_dictionary):
+    highest-bid=0
+    for bidder in bidding_dictionary:
+        bid_amount = bidding_dictionary[bidder]
+        if bid_amount>highest_bid:
+          highest_bid= bid_amount
+          winner=bidder
+    print(f"The winner is {winner} with a bid of €{highest_bid}")
+#Todo-4: Compare bids in dictionary 
 bids={}
 continue_bidding=True
 while continue bidding:
@@ -12,15 +22,3 @@ while continue bidding:
       continue_bidding=False
       find_highest_bidder(bid)
   elif should_continue=="yes":
-#Todo-3: Whether if new bids need to be added
-def find_highest_bidder(bidding_dictionary):
-    highest-bid=0
-    for bidder in bidding_dictionary:
-        bid_amount = bidding_dictionary[bidder]
-        if bid_amount>highest_bid:
-          highest_bid= bid_amount
-          winner=bidder
-    print(f"The winner is {winner} with a bid of €{highest_bid}")
-
-
-
