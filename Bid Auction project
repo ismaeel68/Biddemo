@@ -1,3 +1,5 @@
+import art
+print(art.logo)
 #Todo-1: Ask the user for the input
 #Todo-2: Sava data into dictionary {name: price}
 #Todo-4: Compare bids in dictionary 
